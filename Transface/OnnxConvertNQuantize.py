@@ -79,7 +79,7 @@ def preprocess_image(image_path):
 
 # Example calibration dataset (use ~100 images)
 #load images
-DatasetPath = "/media/bunto22/TOSHIBA EXT/Dataset/vgg2/val/"
+DatasetPath = "/media/bunto22/6894-E9551/Carlos/Quantization-Fnet-Tface/images"
 Datasetfolder = os.listdir(DatasetPath)
 FoldersPath = [os.path.join(DatasetPath,f) for f in Datasetfolder]
 DatasetImages = []
