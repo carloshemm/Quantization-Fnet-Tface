@@ -73,7 +73,7 @@ def find_all_most_similar(df, batch_size=1000, max_workers=6):
     
     return df
 
-csv_file_path = '/media/bunto22/6894-E9551/Carlos/Quantization-Fnet-Tface/Transface/output.csv'  # Replace with the path to your CSV file
+csv_file_path = '/media/bunto22/6894-E9551/Carlos/Quantization-Fnet-Tface/Resultados/output-int.csv'  # Replace with the path to your CSV file
 df = pd.read_csv(csv_file_path)  # Assuming the first column contains row names
 
 preprocessed_df = preprocess_dataframe(df)
