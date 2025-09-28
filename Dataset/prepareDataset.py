@@ -36,7 +36,7 @@ def process_file(src_path: Path, src_root: Path, dst_root: Path, args):
         img = cv2.imread(src_path)
 
         out_img = process_image(img)
-        if out_img:
+        if out_img is not None:
             cv2.imwrite(dst_path, out_img)
 
     except Exception as e:
