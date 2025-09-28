@@ -18,7 +18,7 @@ You can download the pretrained weights and configs from [Google Drive](https://
   title     = {Empirical Evaluation of Quantization Methods for Facial Recognition Models},
   booktitle = {Proceedings of the 37th IEEE/SBC International Symposium on Computer Architecture and High Performance Computing},
   year      = {2025},
-  pages     = {1--9},
+  pages     = {1--8},
   publisher = {SBAC-PAD},
   doi       = {10.1109/[to-be-assigned]},
   note      = {LeanDL-HPC 2025 Workshop on Lightweight and Efficient Deep Learning in HPC Environments}
